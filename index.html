@@ -10,19 +10,28 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      @font-face {
+          font-family: "My Custom Font";
+          src: url(fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
+      }
+      body.customfont { 
+          font-family: "My Custom Font";
+      }
+      </style>      
 </head>
-  <body>
+  <body class="customfont">
     <h1 class="visually-hidden">Headers examples</h1>
 
-  <div class="container sticky-top bg-white">
+  <div class="container sticky-top bg-dark">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4"><image src="images/logo.png" style="max-width:150px"/></span>
       </a>
 
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills" style="align-content: center;">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
@@ -31,7 +40,7 @@
       </ul>
     </header>
   </div>
-  <div class="px-4 py-5 my-5 text-center">
+  <div class="px-2 py-2 my-2 text-center">
     <img class="d-block mx-auto mb-4" src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Logo_JO_d%27%C3%A9t%C3%A9_-_Paris_2024.svg/1200px-Logo_JO_d%27%C3%A9t%C3%A9_-_Paris_2024.svg.png" alt="" style="max-width:15%">
     <h1 class="display-5 fw-bold">Toute l’information des Jeux Olympiques 2024</h1>
   </div>
@@ -95,19 +104,17 @@
     </div>
     
 <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+      <p class="col-md-4 mb-0 text-white">ABCTM<br><image src="images/france_q.png" style="max-width:50px"/></p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       </a>
   
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Site de France Culture</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Qui sommes-nous ?</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Réseaux (France Culture)</a></li>
       </ul>
     </footer>
   </div>
