@@ -21,30 +21,30 @@
       }
 
       .featured-article {
-        width: 80%;
+        display: flex;
+        width: 60%;
         margin: auto;
-        min-height: 100px;
+        min-height: 500px;
       }
 
       .featart-image{
+        margin: auto;
+        display: block; 
+      }
 
-        min-width: 100px;
-        min-height: 100px;
-        background-color: grey;
+      .featart-content{
+        width: 40%;
+        margin: auto;
       }
 
       </style>      
 </head>
-  <body class="customfont">
-    <h1 class="visually-hidden">Headers examples</h1>
-
   <div class="container sticky-top bg-dark" style="max-width:none">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4"><image src="images/logo.png" style="max-width:150px"/></span>
       </a>
-
       <ul class="nav nav-pills" style="align-content: center;">
         <li class="nav-item"><a href="#" class="nav-link text-white">Sport</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Politique</a></li>
@@ -80,7 +80,7 @@
                             <div class="img d-flex align-items-end justify-content-center" style="background-image: url(https://france3-regions.francetvinfo.fr/image/f_vyGdY3AdtRHBKxtFzsnBY7z_A/600x400/regions/2020/06/09/5edef9bbc15eb_estanguet_1.jpg);">
                                 <div class="text w-100">
                                     <span class="cat" style="background-color: rgba(105, 143, 150, 0.5); color: white;border-radius: 8px;">Article</span>
-                                    <h3><a href="#">Working Spaces for Startups Freelancer</a></h3>
+                                    <h3><a href="#">Tony Estanguet : ses confessions choc après ses vacances dans le Nord</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                             <div class="img d-flex align-items-end justify-content-center" style="background-image: url(https://dicodusport.fr/blog/wp-content/uploads/2019/12/Ski-de-bosses-Perrine-Laffont-remporte-la-1%C3%A8re-%C3%A9tape-de-Coupe-du-monde-%C3%A0-Ruka.png);">
                                 <div class="text w-100">
                                     <span class="cat" style="background-color: rgba(190, 164, 71, 0.5); color: white;border-radius: 8px;">Interviews</span>
-                                    <h3><a href="#">Working Spaces for Startups Freelancer</a></h3>
+                                    <h3><a href="#">Perrine Laffont : la poudreuse, sur les pistes... et en dehors ?</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                             <div class="img d-flex align-items-end justify-content-center" style="background-image: url(https://www.lesoir.be/sites/default/files/dpistyles_v2/ls_16_9_856w/2021/08/05/node_387896/28328550/public/2021/08/05/B9727905172Z.1_20210805060450_000+G1EIMHT1Q.3-0.jpg?itok=XSsehmCs1628148227);">
                                 <div class="text w-100">
                                     <span class="cat" style="background-color: black; color: white;border-radius: 8px;">Tous les dossiers</span>
-                                    <h3><a href="#">Working Spaces for Startups Freelancer</a></h3>
+                                    <h3><a href="#">Le javelot : la méthode fitness de 2023 !</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                             <div class="img d-flex align-items-end justify-content-center" style="background-image: url(https://www.lequipe.fr/_medias/img-photo-jpg/renaud-lavillenie-j-prevost-l-equipe/1500000001516615/81:99,1855:1282-828-552-75/3c39e.jpg);">
                                 <div class="text w-100">
                                     <span class="cat" style="background-color: rgba(190, 164, 71, 0.5); color: white;border-radius: 8px;">Interviews</span>
-                                    <h3><a href="#">Working Spaces for Startups Freelancer</a></h3>
+                                    <h3><a href="#">Renaud Lavillenie : "J'aurais voulu être un oiseau"</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                             <div class="img d-flex align-items-end justify-content-center" style="background-image: url(https://www.lequipe.fr/_medias/img-photo-jpg/le-canada-a-elimine-les-etats-unis-en-demi-finales-1-0-edgar-su-reuters/1500000001526235/0:0,1686:1124-828-552-75/beac2.jpg);">
                                 <div class="text w-100">
                                     <span class="cat" style="background-color: rgba(105, 143, 150, 0.5); color: white;border-radius: 8px;">Article</span>
-                                    <h3><a href="#">Working Spaces for Startups Freelancer</a></h3>
+                                    <h3><a href="#">L'équipe nationale des Tongas remporte la médaille d'or de football féminin</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -137,17 +137,20 @@
 <div class="featured-article">
   
   <div class="featart-image">
-    
+    <div style="font-weight:900;font-size: 36px;">Rencontre avec...</div>
+    <image src="images/patoche.png" style="max-width:350px;"/>
   </div>
 
   <div class="featart-content">
-
+    <div style="font-weight:bolder;font-size:36px;">Patrick Latruite</div>
+    <div style="text-transform: uppercase;">Il nous révèle les secrets du saut à la pêche</div>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting.
   </div>
 
 
 </div>
-
-
 
 
 <!-- FOOTER -->
@@ -155,17 +158,31 @@
 
 <div class="container" style="max-width:none;--bs-gutter-x:none;padding-left:0;padding-right:0;">
     <footer class="d-flex flex-wrap justify-content-between align-items-center bg-dark">
-      <p class="col-md-4 mb-0 text-white">ABCTM<br><image src="images/france_q.png" style="max-width:50px"/></p>
+      <p class="col-md-2 mb-0 text-white"><image src="images/france_q.png" style="max-width:50px"/>
+          
+        <image src="images/tomate.png" style="max-width:50px"/>
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Site de France Culture</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Qui sommes-nous ?</a></li>
+          </ul>
+      </p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       </a>
   
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Site de France Culture</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Qui sommes-nous ?</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><image src="images/instagram.png" style="max-width:25px"/><image src="images/facebook.png" style="max-width:25px"/><image src="images/twitter.png" style="max-width:25px"/><image src="images/tiktok.png" style="max-width:25px"/><image src="images/youtube.png" style="max-width:25px"/></a></li>
-      </ul>
+          <table cellpadding=8 style="margin-right: 10px;">
+            <caption class="nav-item caption-top" style="padding-top: 0px; padding-bottom: 0px; padding:0px"><a href="#" class="nav-link px-2 text-white" style="padding:0px">Suivre France Culture</a></caption>
+            <thead>
+              <tr>
+                <td><image src="images/instagram.png" style="max-width:25px"/></td>
+                <td><image src="images/facebook.png" style="max-width:25px"/></td>
+                <td><image src="images/twitter.png" style="max-width:25px"/></td>
+                <td><image src="images/tiktok.png" style="max-width:25px"/></td>
+                <td><image src="images/youtube.png" style="max-width:25px"/></td>
+              </tr>
+            </thead>
+            </table>
     </footer>
   </div>
 <script src="js/jquery.min.js"></script>
