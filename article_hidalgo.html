@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Culture JO - France Culture</title>
+   <title>Culture JO - France Culture</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -38,6 +38,96 @@
         margin: auto;
       }
 
+
+      .article-header{
+        width: 100%;
+        max-height: 550px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+      }
+
+      .article-image{
+      max-width: 50%;
+
+      }
+
+      .article-block{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        padding: 20px 0px;
+
+      }
+
+      .article-text{
+
+        color: white;
+        width: 80%;
+        line-height: 1.0;
+
+      }
+
+      .article-meta{
+        font-size: 1.6vw;
+      }
+
+      .article-title{
+        font-size: 3.3vw; 
+        line-height: 1.0;
+        padding-top: 20px;
+      }
+
+    @media screen and (max-width: 600px){
+      .article-header{
+        flex-direction: column-reverse;
+
+      }
+
+      .article-image{
+        max-width: 100%;
+      }
+
+      .article-block{
+        width: 90%;
+      }
+
+      .article-title{
+        font-size: 6vw;
+      }
+
+      .article-meta{
+        font-size: 4vw;
+      }
+
+      .article-text{
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 992px){
+      .article-header{
+        flex-direction: column-reverse;
+
+      }
+
+
+      .article-block{
+        width: 90%;
+      }
+    }
+
+    .retour-article{
+    color: black;
+    min-height: 50px;
+    text-transform: uppercase;
+    font-family: 
+    font-weight: 700;
+    padding-left: 20px;
+    }
+
       </style>      
 </head>
 <body class="customfont">
@@ -58,14 +148,35 @@
     </header>
   </div>
 
-  <header class="masthead" style="background-image: url('images/space.jpg');height:500px;color:white;">
-    <span style="position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: left;
-    padding-left: 50px;
-    font-size: 50px;">Annie Dingo renonce à bétonner le Champ de Mars</span>
-  </header>
+  <div class="retour-article">
+    
+    <div> < Retour à l'actualité écologique</div>
+  </div>
+
+<!-- TITRE ET META DE L'ARTICLE -->
+
+  <div class="article-header">
+      <div class="article-block"> 
+        <div class="article-text">
+          <div class="article-meta">
+            ÉCOLOGIE | Xavier Éditoethique<br><br>
+            VENDREDI 13 MAI 2022 
+         </div>
+            <div class="article-title">
+              Annie Dingo renonce à bétonner le Champ de Mars
+            </div>
+        </div>
+      </div>
+
+          <!-- CHANGER SOURCE DE L'IMAGE ICI -->
+
+          <img class="article-image" src="images/hidalgo-header.png">
+
+    </div>
+
+
+<!-- SOUS TITRE ET SOUS-SOUS-TITRE ICI -->
+
 
   <br>
     <div class="overlay"></div>
@@ -73,9 +184,9 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Man must explore, and this is exploration at its greatest</h1>
+            <h2>Man must explore, and this is exploration at its greatest</h2>
             
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <h3 class="subheading">Problems look mighty small from 150 miles up</h3>
             
             <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
@@ -91,6 +202,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+
+
+  <!-- CONTENU DE L'ARTICLE ICI -->
 
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
