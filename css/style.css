@@ -8333,22 +8333,3 @@ h1, h2, h3, h4, h5,
       .filtres:visited{
         color: #FFFFFF;
       }
-
-      .alaune{
-        display: flex;
-        flex-direction: row;
-      }
-
-      .alaune img{
-        width: 40%;
-        z-index: 300;
-      }
-
-      .resumeune{
-        flex-grow: 3;
-        z-index: 200;
-        padding: 15px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-      }

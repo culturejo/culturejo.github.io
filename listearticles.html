@@ -13,6 +13,122 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
+
+      @font-face {
+          font-family: "My Custom Font";
+          src: url(fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
+      }
+      body.customfont {
+          font-family: "My Custom Font";
+      }
+
+      .featured-article {
+        display: flex;
+        width: 60%;
+        margin: auto;
+        min-height: 500px;
+      }
+
+      .featart-image{
+        margin: auto;
+        display: block;
+      }
+
+      .featart-content{
+        width: 40%;
+        margin: auto;
+      }
+
+
+      .article-header{
+        width: 100%;
+        max-height: 550px;
+        background-color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+      }
+
+      .article-image{
+      max-width: 50%;
+
+      }
+
+      .article-block{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        padding: 20px 0px;
+
+      }
+
+      .article-text{
+
+        color: white;
+        width: 80%;
+        line-height: 1.0;
+
+      }
+
+      .article-meta{
+        font-size: 1.6vw;
+      }
+
+      .article-title{
+        font-size: 3.3vw;
+        line-height: 1.0;
+        padding-top: 20px;
+      }
+
+    @media screen and (max-width: 600px){
+      .article-header{
+        flex-direction: column-reverse;
+
+      }
+
+      .article-image{
+        max-width: 100%;
+      }
+
+      .article-block{
+        width: 90%;
+      }
+
+      .article-title{
+        font-size: 6vw;
+      }
+
+      .article-meta{
+        font-size: 4vw;
+      }
+
+      .article-text{
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 992px){
+      .article-header{
+        flex-direction: column-reverse;
+
+      }
+
+
+      .article-block{
+        width: 90%;
+      }
+    }
+
+    .retour-article{
+    color: black;
+    min-height: 50px;
+    text-transform: uppercase;
+    font-family:
+    font-weight: 700;
+    padding-left: 20px;
+    }
+
       @font-face {
           font-family: "My Custom Font";
           src: url(fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
@@ -73,14 +189,28 @@
 
   <h3>À LA UNE</h3>
 
-  <div class="alaune" style="background-image: url(https://www.lesoir.be/sites/default/files/dpistyles_v2/ls_16_9_856w/2021/08/05/node_387896/28328550/public/2021/08/05/B9727905172Z.1_20210805060450_000+G1EIMHT1Q.3-0.jpg?itok=XSsehmCs1628148227); background-size: cover; height:500px;">
 
-    <div class="resumeune" style=" background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 33%, rgba(0,0,0,1) 100%);color:white;">
-    <div style="font-weight: bold;font-size: x-large;">Titre de l'article</div>
-    <div style="font-weight:initial">Résumé de l’article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Résumé de l’article Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-  </div>
-  </div>
+  <!-- TITRE ET META DE L'ARTICLE -->
+
+    <div class="article-header">
+        <div class="article-block">
+          <div class="article-text">
+            <div class="article-meta">
+              ÉCOLOGIE | Xavier Éditoethique<br><br>
+              VENDREDI 13 MAI 2022
+           </div>
+              <div class="article-title">
+                Annie Dingo renonce à bétonner le Champ de Mars
+              </div>
+          </div>
+        </div>
+
+            <!-- CHANGER SOURCE DE L'IMAGE ICI -->
+
+            <img class="article-image" src="images/hidalgo-header.png">
+
+      </div>
+
 </div>
 
 
