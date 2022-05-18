@@ -23,20 +23,37 @@
 
       .featured-article {
         display: flex;
-        width: 60%;
+        flex-direction: row;
         margin: auto;
-        min-height: 500px;
+        min-height: 300px;
+        width: 60%;
+      }
+
+      @media screen and (max-width:600px){
+        .featured-article {
+          flex-direction: column;
+          width: 90%;
+        }
       }
 
       .featart-image{
         margin: auto;
-        display: block;
+        display: block; 
       }
 
       .featart-content{
-        width: 40%;
-        margin: auto;
+        padding-left: 30px;
       }
+
+      .hero-image{
+        max-width: 15%;
+      }
+
+      @media screen and (max-width:600px){
+          .hero-image{
+            max-width: 50%;
+          }
+        }
 
       </style>
 </head>
@@ -83,7 +100,68 @@
   </div>
 </div>
 
+<!-- FEATURED ARTICLE  -->
 
+<div style="text-align: center;font-size: 6vh;text-transform: uppercase;font-weight: bold;">Tous nos dossiers sur l’écologie</div>
+
+<div class="featured-article">
+  <div class="featart-image">
+    <image src="images/patoche.png" style="max-width:350px;"/>
+  </div>
+
+  <div class="featart-content" style="margin: auto;">
+    <div style="font-weight:bolder;font-size:36px;">Patrick Latruite</div>
+    <div style="text-transform: uppercase;">Il nous révèle les secrets du saut à la pêche</div>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting.
+  </div>
+</div>
+
+<div class="featured-article">
+  
+  <div class="featart-image">
+    <image src="images/patoche.png" style="max-width:350px;"/>
+  </div>
+
+  <div class="featart-content" style="margin: auto;">
+    <div style="font-weight:bolder;font-size:36px;">Patrick Latruite</div>
+    <div style="text-transform: uppercase;">Il nous révèle les secrets du saut à la pêche</div>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting.
+  </div>
+</div>
+
+<div class="featured-article">
+  
+  <div class="featart-image">
+    <image src="images/patoche.png" style="max-width:350px;"/>
+  </div>
+
+  <div class="featart-content" style="margin: auto;">
+    <div style="font-weight:bolder;font-size:36px;">Patrick Latruite</div>
+    <div style="text-transform: uppercase;">Il nous révèle les secrets du saut à la pêche</div>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting.
+  </div>
+</div>
+
+<div class="featured-article">
+  
+  <div class="featart-image">
+    <image src="images/patoche.png" style="max-width:350px;"/>
+  </div>
+
+  <div class="featart-content" style="margin: auto;">
+    <div style="font-weight:bolder;font-size:36px;">Patrick Latruite</div>
+    <div style="text-transform: uppercase;">Il nous révèle les secrets du saut à la pêche</div>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting.
+  </div>
+</div>
 
 <!-- FOOTER -->
 
