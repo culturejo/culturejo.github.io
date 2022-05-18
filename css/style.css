@@ -8303,5 +8303,52 @@ h1, h2, h3, h4, h5,
       }
 
       .filtrercontent{
-        
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-bottom: 20px;
+      }
+
+      .filtres{
+        flex-grow: 1;
+        padding:5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+        text-decoration: none;
+        transition: all ease 1s;
+        background: #C4C4C4;
+        width: 33%;
+        text-align: center;
+        border-radius: 8px;
+        color: #FFFFFF;
+      }
+
+      .filtres:hover{
+        background: #698F96;
+        color: #FFFFFF;
+      }
+
+      .filtres:visited{
+        color: #FFFFFF;
+      }
+
+      .alaune{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .alaune img{
+        width: 40%;
+        z-index: 300;
+      }
+
+      .resumeune{
+        flex-grow: 3;
+        z-index: 200;
+        padding: 15px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
       }
