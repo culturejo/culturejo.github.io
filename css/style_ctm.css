@@ -41,6 +41,10 @@
           src: url(../fonts/EuropaGroteskNr2SB-Medium.otf) format("truetype");
       }
 
+      body{
+        overflow-x: hidden;
+      }
+
       body.customfont {
           font-family: "EGRegular";
       }
