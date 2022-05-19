@@ -124,3 +124,10 @@ blockquote {
   font-size: 2.2vh;
 }
 
+a {
+  color:inherit;
+}
+
+a:hover {
+  color:#0ea69a;
+}
