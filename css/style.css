@@ -8346,7 +8346,6 @@ h1, h2, h3, h4, h5,
         -webkit-user-select: none;
         user-select: none;
         box-sizing: border-box;
-        padding: 0 !important;
         min-height: 83.5px;
       }
       
@@ -8435,6 +8434,7 @@ h1, h2, h3, h4, h5,
         .menu-container {
           flex-direction: column;
           align-items: flex-end;
+          justify-content: center;
         }
         
         .menu-logo {
