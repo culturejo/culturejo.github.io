@@ -1,10 +1,52 @@
 
 @font-face {
-          font-family: "My Custom Font";
+
+          font-family: "EGRegular";
           src: url(../fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
+        }
+
+@font-face {
+          font-family: "EGBold";
+          src: url(../fonts/EuropaGroteskNr2SB-Bold.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGBoldItalic";
+          src: url(../fonts/EuropaGroteskNr2SB-BoldItalic.otf) format("truetype");
+        }
+        
+@font-face {
+
+          font-family: "EGExtraBold";
+          src: url(../fonts/EuropaGroteskNr2SB-ExtraBold.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGItalic";
+          src: url(../fonts/EuropaGroteskNr2SB-Italic.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGLight";
+          src: url(../fonts/EuropaGroteskNr2SB-Light.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGLightIta";
+          src: url(../fonts/EuropaGroteskNr2SB-LightIta.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGMedium";
+          src: url(../fonts/EuropaGroteskNr2SB-Medium.otf) format("truetype");
       }
+
+      body{
+        overflow-x: hidden;
+      }
+
       body.customfont {
-          font-family: "My Custom Font";
+          font-family: "EGRegular";
       }
 
       .featured-article {
@@ -112,3 +154,6 @@
     .menu-mobile{
       justify-content: space-between;
     }
+
+
+
