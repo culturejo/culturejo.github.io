@@ -8333,3 +8333,88 @@ h1, h2, h3, h4, h5,
       .filtres:visited{
         color: #FFFFFF;
       }
+
+
+      /*TROMBINOSCOPE*/
+
+
+.thrombicolumn {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .thrombicolumn {
+    width: 100%;
+  }
+}
+
+.thrombicard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  height: 100%;
+}
+
+.thrombicontainer {
+  padding: 0 16px;
+  text-align: center;
+  font-size: 26px;
+  overflow: hidden;
+}
+
+.thrombicontainer-main {
+  padding: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.thrombicontainer::after, .row::after, .thrombicontainer-main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.thrombiimage {
+  text-align: center;
+padding: 15px;
+}
+
+.thrombibutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.thrombibutton:hover {
+  background-color: #555;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+    clear: both;
+}
+
+.fa:hover {
+  font-weight: 500;
+  transition: all ease 0.5s;
+  color: #4769BE;}
+
+
+.thrombirow {
+  width:100%;
+  display: flex;
+}

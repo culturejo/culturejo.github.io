@@ -29,12 +29,39 @@
         width: 60%;
       }
 
-      @media screen and (max-width:600px){
+      @media screen and (max-width:700px){
         .featured-article {
           flex-direction: column;
           width: 90%;
         }
+
+
+          .hero-image{
+            max-width: 50%;
+          }
+        
+
+        .captioninvisible {
+          display:none;
+        }
+        
+        .fullscreen {
+          display:none;
+        }
+
+        .hamburger-icon{
+
+          align-content: center;
+          display: flex;
+        }
       }
+
+    @media screen and (min-width: 701px){
+        .hamburger-icon{
+          display: none;
+        }
+      }
+      
 
       .featart-image{
         margin: auto;
@@ -95,46 +122,32 @@
   color: white;
 }
       </style>
+
+    .menu-mobile{
+      justify-content: space-between;
+    }
+
+      </style>      
+
 </head>
 <body class="customfont">
 
   <div class="container sticky-top bg-dark" style="max-width:none; padding-left:0 !important; ">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4" style="padding: 0 !important;">
+    <header class="d-flex flex-wrap justify-content-space-between py-3 mb-4 menu-mobile" style="padding: 0 !important;">
     <a href="https://culturejo.github.io/"><image src="images/logo.png" style="max-width: 250px;"/></a>
 
     <!-- NE PAS TOUCHER <a> ci dessous!! -->
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
       </a>
-      <ul class="nav nav-pills" style="align-content: center;">
-        <li class="nav-item"><a href="#" class="nav-link text-white">Histoire</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Société</a></li>
-        <li class="nav-item"><a href="ecologie.html" class="nav-link text-white">Ecologie</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Sport</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Architecture</a></li>
-        <li class="burger">
-          <div class="topnav">
-            <a href="#home" class="active">A</a>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-              <a href="#news">Histoire</a>
-              <a href="#news">Société</a>
-              <a href="#news">Ecologie</a>
-              <a href="#contact">Sport</a>
-              <a href="#about">Architecture</a>
-            </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <img src="images/hamburger.png" style="max-width: 16px";/>
-            </a>
-          </div>
+      <ul class="nav nav-pills menu-fullscreen" style="align-content: center;">
+        <li class="nav-item fullscreen"><a href="#" class="nav-link text-white">Histoire</a></li>
+        <li class="nav-item fullscreen"><a href="#" class="nav-link text-white">Société</a></li>
+        <li class="nav-item fullscreen"><a href="ecologie.html" class="nav-link text-white">Ecologie</a></li>
+        <li class="nav-item fullscreen"><a href="#" class="nav-link text-white">Sport</a></li>
+        <li class="nav-item fullscreen"><a href="#" class="nav-link text-white">Architecture</a></li>
 
-
-
-
-
-
-        </li>
+        <li>  <div class="hamburger-icon"><img src="images/hamburger.png" style="max-width: 30px; max-height: 30px"></div></li>
       </ul>
     </header>
   </div>
