@@ -1,52 +1,11 @@
-
-@font-face {
-
-          font-family: "EGRegular";
-          src: url(../fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
-        }
-
-@font-face {
-          font-family: "EGBold";
-          src: url(../fonts/EuropaGroteskNr2SB-Bold.otf) format("truetype");
-        }
-        
-@font-face {
-          font-family: "EGBoldItalic";
-          src: url(../fonts/EuropaGroteskNr2SB-BoldItalic.otf) format("truetype");
-        }
-        
-@font-face {
-
-          font-family: "EGExtraBold";
-          src: url(../fonts/EuropaGroteskNr2SB-ExtraBold.otf) format("truetype");
-        }
-        
-@font-face {
-          font-family: "EGItalic";
-          src: url(../fonts/EuropaGroteskNr2SB-Italic.otf) format("truetype");
-        }
-        
-@font-face {
-          font-family: "EGLight";
-          src: url(../fonts/EuropaGroteskNr2SB-Light.otf) format("truetype");
-        }
-        
-@font-face {
-          font-family: "EGLightIta";
-          src: url(../fonts/EuropaGroteskNr2SB-LightIta.otf) format("truetype");
-        }
-        
-@font-face {
-          font-family: "EGMedium";
-          src: url(../fonts/EuropaGroteskNr2SB-Medium.otf) format("truetype");
-      }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
       body{
         overflow-x: hidden;
       }
 
-      body.customfont {
-          font-family: "EGRegular";
+      body {
+          font-family: "Roboto", Arial, sans-serif;
       }
 
       .featured-article {
