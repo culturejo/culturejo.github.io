@@ -8533,8 +8533,8 @@ h1, h2, h3, h4, h5,
 
 .thrombicontainer-main {
   padding: 60px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .thrombicontainer::after, .row::after, .thrombicontainer-main::after {
@@ -8572,6 +8572,7 @@ padding: 15px;
   text-decoration: none;
   display: table;
     clear: both;
+    color: black;
 }
 
 .fa:hover {
