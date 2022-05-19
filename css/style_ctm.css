@@ -1,0 +1,151 @@
+
+@font-face {
+          font-family: "EGRegular";
+          src: url(../fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
+        }
+
+@font-face {
+          font-family: "EGBold";
+          src: url(../fonts/EuropaGroteskNr2SB-Bold.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGBoldItalic";
+          src: url(../fonts/EuropaGroteskNr2SB-BoldItalic.otf) format("truetype");
+        }
+        
+@font-face {
+
+          font-family: "EGExtraBold";
+          src: url(../fonts/EuropaGroteskNr2SB-ExtraBold.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGItalic";
+          src: url(../fonts/EuropaGroteskNr2SB-Italic.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGLight";
+          src: url(../fonts/EuropaGroteskNr2SB-Light.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGLightIta";
+          src: url(../fonts/EuropaGroteskNr2SB-LightIta.otf) format("truetype");
+        }
+        
+@font-face {
+          font-family: "EGMedium";
+          src: url(../fonts/EuropaGroteskNr2SB-Medium.otf) format("truetype");
+      }
+
+      body.customfont {
+          font-family: "EGRegular";
+      }
+
+      .featured-article {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        min-height: 400px;
+        width: 60%;
+      }
+
+      @media screen and (max-width:700px){
+        .featured-article {
+          flex-direction: column;
+          width: 90%;
+        }
+
+
+          .hero-image{
+            max-width: 50%;
+          }
+        
+
+        .captioninvisible {
+          display:none;
+        }
+        
+        .fullscreen {
+          display:none;
+        }
+
+        .hamburger-icon{
+
+          align-content: center;
+          display: flex;
+        }
+      }
+
+    @media screen and (min-width: 701px){
+        .hamburger-icon{
+          display: none;
+        }
+      }
+      
+
+      .featart-image{
+        margin: auto;
+        display: block;
+      }
+
+      .featart-content{
+        margin: auto;
+        padding-left: 30px;
+      }
+
+      .hero-image{
+        max-width: 15%;
+      }
+
+      @media screen and (max-width:600px){
+          .hero-image{
+            max-width: 50%;
+          }
+        }
+
+        @media screen and (max-width:600px) {
+        .captioninvisible {
+          display:none;
+        }
+
+      }
+
+       /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+
+    .menu-mobile{
+      justify-content: space-between;
+    }
