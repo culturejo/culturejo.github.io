@@ -7,18 +7,17 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
-
+		
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_ctm.css">
     <style type="text/css">
       @font-face {
           font-family: "My Custom Font";
           src: url(fonts/EuropaGroteskNr2SB-Regular.otf) format("truetype");
       }
-      body.customfont {
+      body.customfont { 
           font-family: "My Custom Font";
       }
 
@@ -31,7 +30,7 @@
 
       .featart-image{
         margin: auto;
-        display: block;
+        display: block; 
       }
 
       .featart-content{
@@ -47,7 +46,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-
 
       }
 
@@ -77,11 +75,10 @@
       }
 
       .article-title{
-        font-size: 3.3vw;
+        font-size: 3.3vw; 
         line-height: 1.0;
         padding-top: 20px;
       }
-
 
     @media screen and (max-width: 600px){
       .article-header{
@@ -134,32 +131,63 @@
         .captioninvisible {
           display:none;
         }
-
+        
       }
 
-      </style>
+      </style>      
 </head>
 <body class="customfont">
-  <div class="container sticky-top bg-dark" style="max-width:none; padding-left:0 !important; ">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4" style="padding: 0 !important;">
-    <image src="images/logo.png" style="max-width: 250px;"/>
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-
-      </a>
-      <ul class="nav nav-pills" style="align-content: center;">
-        <li class="nav-item"><a href="#" class="nav-link text-white">Histoire</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Société</a></li>
-        <li class="nav-item"><a href="ecologie.html" class="nav-link text-white">Ecologie</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Sport</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white">Architecture</a></li>
+  <nav class="menu-container">
+    <!-- burger menu -->
+    <input type="checkbox" aria-label="Toggle menu" />
+    <span></span>
+    <span></span>
+    <span></span>
+  
+    <!-- logo -->
+    <a href="index.html" class="menu-logo">
+      <img src="images/logo.png" style="max-width: 250px;"/>
+    </a>
+  
+    <!-- menu items -->
+    <div class="menu">
+      <ul>
       </ul>
-    </header>
-  </div>
+      <ul>
+        <li>
+          <a href="histoire.html">
+            Histoire
+          </a>
+        </li>
+        <li>
+          <a href="societe.html">
+            Société
+          </a>
+        </li>
+        <li>
+          <a href="ecologie.html">
+            Ecologie
+          </a>
+        </li>
+        <li>
+          <a href="sport.html">
+            Sport
+          </a>
+        </li>
+        <li>
+          <a href="architecture.html">
+            Architecture
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="retour-article">
 
-    <div> <a href="histoire.html">&lt; Retour à l'actualité historique</a></div>
-  </div>
+  <a href="histoire.html"> <div class="retour-article">
+    
+    <div> < Retour à l'actualité historique</div>
+  </div></a>
 
 <!-- TITRE ET META DE L'ARTICLE -->
 
@@ -219,31 +247,30 @@
 
 
 <div class="container" style="max-width:none;--bs-gutter-x:none;padding-left:0;padding-right:0;">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center bg-dark">
-      <p class="col-md-2 mb-0 text-white"><image src="images/france_q.png" style="max-width:50px"/>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center bg-black">
+    <p class="col-md-2 mb-0 text-white"><image src="images/france_q.png" style="max-width:50px"/>
 
-        <image src="images/tomate.png" style="max-width:50px"/>
-        <ul class="nav justify-content-end">
-          <li class="nav-item"><a href="https://www.radiofrance.fr/franceculture" target="_blank" class="nav-link px-2 text-white">France Culture</a></li>
-          <li class="nav-item"><a href="quisommesnous.html" class="nav-link px-2 text-white">Qui sommes-nous ?</a></li>
-          </ul>
-      </p>
+      <image src="images/tomate.png" style="max-width:50px"/>
+      <ul class="nav justify-content-end">
+        <li class="nav-item"><a href="https://www.radiofrance.fr/franceculture" target="_blank" class="nav-link px-2 text-white">France Culture</a></li>
+        <li class="nav-item"><a href="quisommesnous.html" class="nav-link px-2 text-white">Qui sommes-nous ?</a></li>
+        </ul>
+    </p>
 
-          <table cellpadding=8 style="margin-right: 10px;">
-            <caption class="captioninvisible nav-item caption-top" style="padding-top: 0px; padding-bottom: 0px; padding:0px"><a href="#" class="nav-link px-2 text-white" style="padding:0px">Suivre ABCTM</a></caption>
-            <thead>
-              <tr>
-                <td><a href="https://www.instagram.com/franceculture/?hl=fr" target="_blank"><image src="images/instagram.png" style="max-width:25px"/></a></td>
-                <td><a href="https://www.facebook.com/franceculture/" target="_blank"><image src="images/facebook.png" style="max-width:25px"/></a></td>
-                <td><a href="https://twitter.com/franceculture" target="_blank"><image src="images/twitter.png" style="max-width:25px"/></a></td>
-                <td><a href="https://www.tiktok.com/@franceculture?lang=fr" target="_blank"><image src="images/tiktok.png" style="max-width:25px"/></a></td>
-                <td><a href="https://www.youtube.com/channel/UCd5DKToXYTKAQ6khzewww2g" target="_blank"><image src="images/youtube.png" style="max-width:25px"/></a></td>
-                <td><a href="https://github.com/culturejo/" target="_blank"><image src="images/github.png" style="max-width:25px"/></a></td>
-              </tr>
-            </thead>
-            </table>
-    </footer>
-  </div>
+    <table cellpadding=8 style="margin-right: 10px;">
+      <caption class="captioninvisible nav-item caption-top" style="padding-top: 0px; padding-bottom: 0px; padding:0px"><a href="#" class="nav-link px-2 text-white" style="padding:0px">Suivre Culture JO</a></caption>
+      <thead>
+        <tr>
+          <td><a href="https://www.instagram.com/culturejo2022/" target="_blank"><image src="images/instagram.png" style="max-width:25px"/></a></td>
+          <td><a href="https://twitter.com/ABCTM3" target="_blank"><image src="images/twitter.png" style="max-width:25px"/></a></td>
+          <td><a href="https://www.tiktok.com/@culturejo?lang=fr" target="_blank"><image src="images/tiktok.png" style="max-width:25px"/></a></td>
+          <td><a href="https://www.youtube.com/channel/UCek3BUyR5h1hSZD-367D7fA" target="_blank"><image src="images/youtube.png" style="max-width:25px"/></a></td>
+          <td><a href="https://github.com/culturejo/" target="_blank"><image src="images/github.png" style="max-width:25px"/></a></td>
+        </tr>
+      </thead>
+      </table>
+  </footer>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
