@@ -8585,3 +8585,9 @@ padding: 15px;
   width:100%;
   display: flex;
 }
+
+@media screen and (max-width:750px) {.thrombirow{
+  width:100%;
+  display: flex;
+  flex-direction: column;}
+}
