@@ -131,3 +131,17 @@ a {
 a:hover {
   color:#0ea69a;
 }
+
+/*Back to top*/
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 67px;
+  right: 20px;
+  display: none;
+  background-color: #0ea69a;
+  border-color: #0ea69a00;
+  z-index: 9000;
+  
+
+}
